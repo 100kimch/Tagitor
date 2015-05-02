@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title> Tagitor Beta 0.5</title>
+
+<link rel="stylesheet" type="text/css" href="tagitor005_layout.css" />
+<link rel="stylesheet" type="text/css" href="tagitor005_jhtag.css" />
+<link rel="stylesheet" type="text/css" href="tagitor005_bar.css" />
+
+<!--비동기 방식-->
+<script async defer src="tagitor006.js"></script>
+
+<body onresize="layout();">
+
+
+<div id="top" ondragstart="return false" onselectstart="return false">
+	<header>
+		Tagitor toPlan
+	</header>
+</div>
+
+<div id="toolBar">
+	<div id ="font">..</div>
+	<div id="numbering">..</div>
+	
+</div>
+
+<div id="container">
+	<div id="textEditor"
+		contenteditable="true"
+		onkeydown="onKeyDown();"
+		onclick="if(this.innerText==guide)selectAll(this);"
+		onblur="if(this.innerText=='')this.innerText=guide;"
+	></div>
+	<div id="mainEditor"
+		contenteditable="false"
+		ondragstart="return false"
+		onselectstart="return false"
+	></div>
+</div>
+
+<footer>
+</footer>
+
+<!--
+<template id="tempjhh1">
+<div  id="editjhh1">Hello</div>
+</template>
+-->
+
+</body>
+</html>

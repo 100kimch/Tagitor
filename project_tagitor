@@ -1,0 +1,45 @@
+<NotepadPlus>
+    <Project name="Tagitor_05">
+        <Folder name="tagitor105">
+            <File name="tagitor105_layout.css" />
+            <File name="tagitor105.html" />
+            <File name="tagitor105.js" />
+        </Folder>
+        <Folder name="tagitor005">
+            <File name="tagitor005.html" />
+            <File name="tagitor005.js" />
+            <File name="tagitor005_bar.css" />
+            <File name="tagitor005_jhtag.css" />
+            <File name="tagitor005_layout.css" />
+            <File name="tagitor006.js" />
+        </Folder>
+    </Project>
+    <Project name="Hacks">
+        <Folder name="js">
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack00.txt" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack01.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack02.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack03.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack04.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack05.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack07.java" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack07.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack07.txt" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack08.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack09.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack12.js" />
+            <File name="C:\APM_Setup\htdocs\hacks\js\hack13.js" />
+        </Folder>
+        <Folder name="html">
+            <File name="C:\APM_Setup\htdocs\hacks\hack02.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack04.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack05.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack06.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack07.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack08.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack09.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack12.html" />
+            <File name="C:\APM_Setup\htdocs\hacks\hack13.html" />
+        </Folder>
+    </Project>
+</NotepadPlus>
