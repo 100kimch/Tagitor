@@ -1,0 +1,14 @@
+﻿var guide = "Put texts here.";
+document.getElementById('textEditor').innerText = guide;
+
+layout();
+function layout(){
+	var pDiv = window.innerWidth;
+	document.
+	
+	document.getElementById('mainEditor').style.width =
+		pDiv *  0.6  - 100 - 80  - 10 + 'px';
+	
+	document.getElementById('textEditor').style.width =
+		pDiv * 0.4 + 'px';
+}
