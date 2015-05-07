@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title> Tagitor</title>
+
+<link rel="stylesheet" type="text/css" href="tagitor_layout.css" />
+<link rel="stylesheet" type="text/css" href="tagitor_jhtag.css" />
+<link rel="stylesheet" type="text/css" href="tagitor_bar.css" />
+
+<!--비동기 방식-->
+<script async defer src="tagitor.js"></script>
+
+<body onresize="layout();">
+
+
+<div id="top" ondragstart="return false" onselectstart="return false">
+	<header>
+		Tagitor toPlan
+	</header>
+</div>
+
+<div id="toolBar">
+	<div id="main" class="subBar">..</div>
+	<div id ="font" class="subBar">..</div>
+	<div id="numbering" class="subBar">..</div>
+	<div id="table" class="subBar">..</div>
+	<div id="graph" class="subBar">..</div>
+	<div id="image" class="subBar">..</div>
+	<div id="formula" class="subBar">..</div>
+</div>
+	
+<div id="container">
+	<!--TODO: fix a bug when texts are rewritten-->
+	<div id="textEditor"
+		contenteditable="true"
+		onkeydown="onKeyDown();"
+		onclick="if(this.innerHTML==guide)selectAll(this);"
+		onblur="if(this.innerText=='')this.innerHTML=guide;"
+	></div>
+	<div id="mainEditor"
+		contenteditable="false"
+		ondragstart="return false"
+		onselectstart="return false"
+	></div>
+</div>
+
+<div id="caretPos"></div>
+
+<footer>
+</footer>
+
+<!--
+<template id="tempjhh1">
+<div  id="editjhh1">Hello</div>
+</template>
+-->
+
+</body>
+</html>

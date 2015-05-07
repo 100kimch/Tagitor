@@ -1,0 +1,119 @@
+﻿.tag {
+	padding-right: 5px;
+	text-align: right;
+	border-radius: 5px 0px 0px 5px;
+	color: #eee;
+	float: left;
+	position: absolute;
+	cursor: default;
+}
+
+.tag:hover {
+	background-color: #fff;
+	transition: all 200ms ease-in-out;
+}
+
+#mainEditor>*>*>.tag {
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#mainEditor>*>*>.tag:hover{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#mainEditor>div {
+	margin: 0px;
+	clear:both;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin : 5px 0px 0px 0px;
+	padding: 0px;
+}
+
+ol, ul{
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+}
+
+.jhTitle>div {
+	line-height: 50px !important;
+	min-height: 50px !important;
+}
+
+.jhTitle>.tag {
+	width: 50px;
+	margin-left: -50px;
+	padding: 10px 5px 15px 10px;
+	background-color: #354;
+}
+.jhTitle>.tag:hover{
+	background-color:#3c5e4d;
+}
+.jhTitle>.tag~div{
+	padding: 10px 0px 15px 10px;
+	font-size: 16pt;
+}
+.jhTitle>.tag~div:hover{
+	background-color: #b8d3c6;
+}
+
+.jhNorm>div {
+	line-height: 35px;
+	min-height: 35px;
+}
+.jhNorm .tag{
+	width: 40px;
+	margin-left: -40px;
+	background-color:#834d6f;
+}
+.jhNorm>.tag:hover {
+	background-color:#8d597b;
+}
+.jhNorm>.tag~div {
+	padding: 0px 0px 5px 35px;
+}
+.jhNorm>.tag~div:hover {
+	background-color: #f4caf5;
+}
+
+h5, .jhh5>.tag{
+	font-size: 1em;
+	min-height: 30px !important;
+	line-height: 30px !important;
+}
+.jhh5 .tag{
+	width: 45px;
+	margin-left: -45px;
+	background-color:#465;
+}
+.jhh5>.tag:hover{
+	background-color: #4d6f5e;
+}
+.jhh5>.contents{
+	padding-left: 10pt;
+}
+.jhh5>.contents:hover{
+	background-color: #d9f4e7;
+}
+
+
+.jhOl>div, .jhUl>div{
+	line-height: 35px;
+	min-height: 35px;
+}
+.jhOl>.tag, .jhUl>.tag{
+	width: 45px;
+	margin-left: -45px;
+	background-color: #814E6B;
+}
+.jhOl>.tag:hover, .jhUl>.tag:hover {
+	background-color: #9B5C80;
+}
+.jhOl>.tag~div, .jhUl>.tag~div {
+	padding-left: 25pt;
+}
+.jhOl>.tag~div:hover, .jhUl>.tag~div:hover {
+	background-color: #f4caf5;
+}
